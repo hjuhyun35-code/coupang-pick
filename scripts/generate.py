@@ -60,6 +60,12 @@ def main() -> int:
     sample = os.environ.get("SAMPLE") == "1"
     no_ai = os.environ.get("NO_AI") == "1" or not os.environ.get("ANTHROPIC_API_KEY")
 
+    if not sample and not (os.environ.get("COUPANG_ACCESS_KEY") and os.environ.get("COUPANG_SECRET_KEY")):
+        print("[막힘] 쿠팡 파트너스 API 키가 없습니다. Secrets 에 COUPANG_ACCESS_KEY / COUPANG_SECRET_KEY 를 넣으세요.")
+        print("       키 없이 시험하려면 sample=1 로 돌리세요.")
+        _output(0, [])
+        return 0
+
     used = picker.load_used()
     candidates = gather(config, count, sample)
     print(f"후보 {len(candidates)}개, 이미 쓴 상품 {len(used)}개")
