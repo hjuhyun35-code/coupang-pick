@@ -1,0 +1,50 @@
+[
+  {
+    "id": "7001",
+    "name": "샤오미 무선 핸디 청소기 미니 차량용 가정용 12000Pa",
+    "price": 39900,
+    "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2024/01/01/0/0/sample.jpg",
+    "url": "https://link.coupang.com/re/AFFSDP?lptag=AF0000000&pageKey=7001",
+    "category": "가전디지털",
+    "rocket": true,
+    "free_shipping": true,
+    "rank": 1,
+    "source": "best:1016"
+  },
+  {
+    "id": "7002",
+    "name": "다이어트 보조제 60정",
+    "price": 29900,
+    "image": "https://example.com/x.jpg",
+    "url": "https://link.coupang.com/re/AFFSDP?lptag=AF0000000&pageKey=7002",
+    "category": "헬스/건강식품",
+    "rocket": true,
+    "free_shipping": true,
+    "rank": 2,
+    "source": "best:1024"
+  },
+  {
+    "id": "7003",
+    "name": "접이식 캠핑 의자 경량 알루미늄",
+    "price": 24900,
+    "image": "https://example.com/y.jpg",
+    "url": "https://link.coupang.com/re/AFFSDP?lptag=AF0000000&pageKey=7003",
+    "category": "스포츠/레저",
+    "rocket": false,
+    "free_shipping": true,
+    "rank": 3,
+    "source": "best:1017"
+  },
+  {
+    "id": "7004",
+    "name": "스테인리스 보온 텀블러 500ml",
+    "price": 15900,
+    "image": "https://example.com/z.jpg",
+    "url": "https://link.coupang.com/re/AFFSDP?lptag=AF0000000&pageKey=7004",
+    "category": "주방용품",
+    "rocket": true,
+    "free_shipping": true,
+    "rank": 4,
+    "source": "best:1013"
+  }
+]
